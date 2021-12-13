@@ -1,0 +1,169 @@
+.service{
+
+     width: 480px!important;
+     border: 7px solid palegreen!important;
+     border-radius: 5px!important;
+
+}
+
+@media only screen and(max-width:940px){
+.service{
+
+      width: 350px!important;
+      border: 7px solid palegreen!important;
+      border-radius: 5px!important;
+ 
+ }
+}
+
+::-webkit-input-placeholder{
+
+        font-family: Cambria;
+        text-align: center;
+        font-size: initial;
+}
+
+.maintopic{
+
+      font-family:Cambria;
+}
+
+.topic{
+
+      margin-top: 3rem;
+      border-bottom: 4px solid black;
+}
+
+.myinput{
+
+            border: 2px solid blueviolet!important;
+            border-radius: 14px!important;
+            background-color:whitesmoke!important;
+}
+
+.serviceicon img{
+
+       margin-top: 1rem;
+       width: 8rem;
+       height: 8rem;
+}
+
+.section2{
+
+      padding-left: 2rem;
+}
+
+.listing >li>a{
+
+        list-style-type: circle;
+      
+}
+
+.formbody{
+
+      background-color: azure!important;
+}
+
+/* .hover:table-bordered{
+  
+     background-color: black!important;
+
+} */
+
+.loginbox{
+
+        background-image: url(../img/loginimage4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.luvion-nav{
+ 
+      background-image: url(../img/loginimage4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.maintopic{
+
+        color: coral;
+}
+
+.otpbutton{
+
+            position: absolute!important;
+            margin-left: 23.6rem!important;
+            margin-top: 0.1rem!important;
+            width: auto!important;
+            border-radius: 12px!important;
+            height: auto!important;
+}
+
+.otpbutton>a{
+
+         color: aliceblue!important;
+}
+
+@media only screen and(max-width: 530px) {
+.otpbutton{
+
+      position: absolute!important;
+      margin-left: 4.6rem!important;
+      margin-top: 0.1rem!important;
+      color: rgb(107, 107, 107)!important;
+      width: auto!important;
+}
+}
+
+input.placeholder {
+      text-align: center!important;
+  }
+
+  input[type=text]{
+         
+          text-align: center!important;
+          font-family: Cambria;
+  }
+
+  input[type=number]{
+
+      text-align: center!important;
+      font-family: cursive!important;
+  }
+
+  input[type=password]{
+              
+      text-align: center!important;
+      font-family: Cambria;
+  }
+
+.loginimage{
+      
+         margin-top: 5rem;
+}  
+
+.loginimage2{
+ 
+      margin-top: 2rem; 
+      margin-left: 1rem;
+       
+}
+
+.loginimage3{
+
+      margin-top: 7rem;
+}
+
+*{
+  
+   box-sizing: border-box!important;
+}
+
+.notfound{
+
+      background-image: url(../img/4042.jpg)!important;
+      background-position: center center!important;
+      background-size: cover!important;
+      background-repeat: no-repeat!important;
+      height: 93vh!important;
+}
